@@ -13,8 +13,8 @@ This is a static HTML/CSS/JS website for Navabharath Technologies, designed base
 
 Since this is a static website, you do not need any special server or installation.
 
-1.  **Double-click** the `index.html` file to open it in your default web browser.
-2.  Alternatively, you can use a local development server like Live Server (VS Code extension) or `python -m http.server` if you prefer.
+1. **Double-click** the `index.html` file to open it in your default web browser.
+2. Alternatively, you can use a local development server like Live Server (VS Code extension) or `python -m http.server` if you prefer.
 
 ## Features
 
