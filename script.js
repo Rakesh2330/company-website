@@ -1256,10 +1256,37 @@ document.addEventListener('DOMContentLoaded', () => {
             currentScroll -= e.deltaY * 2.5;
         }, { passive: false });
 
+        // Touch Swipe Event Listeners
+        let touchStartX = 0;
+        let touchStartY = 0;
+
+        carouselScene.addEventListener('touchstart', (e) => {
+            isPaused = true;
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+        }, { passive: true });
+
+        carouselScene.addEventListener('touchmove', (e) => {
+            if (!isPaused) return;
+            const touchCurrentX = e.touches[0].clientX;
+            const touchCurrentY = e.touches[0].clientY;
+            const diffX = touchStartX - touchCurrentX;
+            const diffY = touchStartY - touchCurrentY;
+
+            // Check if horizontal swipe dominant
+            if (Math.abs(diffX) > Math.abs(diffY)) {
+                if (e.cancelable) e.preventDefault(); // Prevent page scroll
+                currentScroll -= diffX * 2.5; // Fast swipe speed
+                touchStartX = touchCurrentX;
+            }
+        }, { passive: false });
+
+        carouselScene.addEventListener('touchend', () => {
+            isPaused = false;
+        });
+
         carouselScene.addEventListener('mouseenter', () => isPaused = true);
         carouselScene.addEventListener('mouseleave', () => isPaused = false);
-        carouselScene.addEventListener('touchstart', () => isPaused = true, { passive: true });
-        carouselScene.addEventListener('touchend', () => isPaused = false);
     }
 
     // 3D Tilt Animation for Resource Cards
