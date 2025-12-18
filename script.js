@@ -192,6 +192,50 @@ const translations = {
         explore_trust_3_desc: "A team that blends creativity, expertise, & industry knowledge.",
         explore_trust_4_title: "4. Quality & Transparency",
         explore_trust_4_desc: "Clear communication, reliable processes, & timely delivery at every stage.",
+
+        // Blog Page
+        blog_banner_title: "Our Blog",
+        blog_banner_desc: "Insights, updates, and expert opinions from the world of technology.",
+        blog_post1_title: "Chatbots vs Human Support : What’s Best for Your Business?",
+        blog_post1_excerpt: "Explore how chatbots and human support are reshaping customer service—and learn which approach works best for your business..",
+        blog_post2_title: "Essential Cloud Security Best Practices",
+        blog_post2_excerpt: "As businesses move to the cloud, security is paramount. Learn the top strategies to protect your digital assets and data.",
+        blog_post3_title: "Top Web Development Trends for 2026",
+        blog_post3_excerpt: "Stay ahead of the curve with our analysis of the emerging trends in web development that will shape the internet next year.",
+        read_more: "Read More",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbots vs Human Support : What’s Best for Your Business?",
+        blog_cb_date: "Dec 15, 2025",
+        blog_cb_author: "Tech Team",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Strengths of Chatbot Support",
+        blog_cb_key_adv: "Key Advantages",
+        blog_cb_h3_1: "Instant Responses",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "24/7 Availability",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Cost-Effective Operations",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Scalability During High Demand",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Data Collection & Insights",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Strengths of Human Support",
+        blog_cb_h3_6: "1. Empathy & Emotional Understanding",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Personalized Problem Solving",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Better for Complicated Issues",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Relationship Building",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Cultural Understanding & Language Nuance",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "CONCLUSION",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Back to Blog"
     },
     es: {
         nav_home: "Inicio",
@@ -236,7 +280,73 @@ const translations = {
         footer_services: "Servicios",
         footer_contact: "Contacto",
         footer_social_title: "Síguenos",
-        footer_copyright: "© 2025 Navabharath Technologies. Todos los derechos reservados."
+        footer_copyright: "© 2025 Navabharath Technologies. Todos los derechos reservados.",
+
+        // Blog Page
+        blog_banner_title: "Nuestro Blog",
+        blog_banner_desc: "Perspectivas, actualizaciones y opiniones de expertos del mundo de la tecnología.",
+        blog_post1_title: "Chatbots vs Soporte Humano: ¿Qué es Mejor para Su Negocio?",
+        blog_post1_excerpt: "Explore cómo los chatbots y el soporte humano están remodelando el servicio al cliente y aprenda qué enfoque funciona mejor para su negocio.",
+        blog_post2_title: "Prácticas Esenciales de Seguridad en la Nube",
+        blog_post2_excerpt: "A medida que las empresas se trasladan a la nube, la seguridad es primordial. Aprenda las mejores estrategias para proteger sus activos digitales y datos.",
+        blog_post3_title: "Principales Tendencias de Desarrollo Web para 2026",
+        blog_post3_excerpt: "Manténgase a la vanguardia con nuestro análisis de las tendencias emergentes que darán forma a Internet el próximo año.",
+        read_more: "Leer Más",
+
+        // Resources Page
+        resources_intro_title: "Centro de Conocimiento",
+        resources_intro_desc: "Descubra recursos seleccionados por expertos, guías paso a paso y conocimientos de la industria diseñados para respaldar su crecimiento digital.",
+        resource_card1_title: "Documentación",
+        resource_card1_desc: "Guías completas y documentación técnica para nuestros servicios y soluciones.",
+        resource_view_btn: "Ver Documentación",
+        resource_card2_title: "Blog y Perspectivas",
+        resource_card2_desc: "Manténgase actualizado con las últimas tendencias, consejos y conocimientos de nuestro equipo de expertos.",
+        resource_read_btn: "Leer Blog",
+        resource_card3_title: "Tutoriales en Video",
+        resource_card3_desc: "Vea tutoriales en video paso a paso y seminarios web sobre diversos temas.",
+        resource_watch_btn: "Ver Videos",
+        resource_card4_title: "Descargas",
+        resource_card4_desc: "Acceda a documentos técnicos, estudios de casos y recursos descargables.",
+        resource_download_btn: "Obtener Descargas",
+        resource_card5_title: "Preguntas Frecuentes",
+        resource_card5_desc: "Encuentre respuestas a las preguntas frecuentes sobre nuestros servicios y soluciones.",
+        resource_faq_btn: "Ver FAQ",
+        resource_card6_title: "Herramientas para Desarrolladores",
+        resource_card6_desc: "Acceda a API, SDK y herramientas para desarrolladores para integrar nuestras soluciones.",
+        resource_tools_btn: "Explorar Herramientas",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbots vs Soporte Humano: ¿Qué es mejor para su negocio?",
+        blog_cb_date: "15 de dic, 2025",
+        blog_cb_author: "Equipo Técnico",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Fortalezas del Soporte de Chatbot",
+        blog_cb_key_adv: "Ventajas Clave",
+        blog_cb_h3_1: "Respuestas Instantáneas",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "Disponibilidad 24/7",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Operaciones Rentables",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Escalabilidad durante alta demanda",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Recopilación de datos e información",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Fortalezas del Soporte Humano",
+        blog_cb_h3_6: "1. Empatía y comprensión emocional",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Resolución de problemas personalizada",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Mejor para problemas complicados",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Construcción de relaciones",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Comprensión cultural y matices del idioma",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "CONCLUSIÓN",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Volver al Blog"
     },
     fr: {
         nav_home: "Accueil",
@@ -281,7 +391,73 @@ const translations = {
         footer_services: "Services",
         footer_contact: "Contact",
         footer_social_title: "Suivez-Nous",
-        footer_copyright: "© 2025 Navabharath Technologies. Tous droits réservés."
+        footer_copyright: "© 2025 Navabharath Technologies. Tous droits réservés.",
+
+        // Blog Page
+        blog_banner_title: "Notre Blog",
+        blog_banner_desc: "Aperçus, mises à jour et avis d'experts du monde de la technologie.",
+        blog_post1_title: "Chatbots vs Support Humain : Qu'est-ce qui est Mieux pour Votre Entreprise ?",
+        blog_post1_excerpt: "Découvrez comment les chatbots et le support humain remodèlent le service client et apprenez quelle approche fonctionne le mieux pour votre entreprise.",
+        blog_post2_title: "Meilleures Pratiques Essentielles de Sécurité Cloud",
+        blog_post2_excerpt: "Alors que les entreprises passent au cloud, la sécurité est primordiale. Apprenez les meilleures stratégies pour protéger vos actifs numériques et vos données.",
+        blog_post3_title: "Principales Tendances de Développement Web pour 2026",
+        blog_post3_excerpt: "Gardez une longueur d'avance avec notre analyse des tendances émergentes qui façonneront Internet l'année prochaine.",
+        read_more: "Lire Plus",
+
+        // Resources Page
+        resources_intro_title: "Centre de Connaissances",
+        resources_intro_desc: "Découvrez des ressources sélectionnées par des experts, des guides étape par étape et des informations sur l'industrie.",
+        resource_card1_title: "Documentation",
+        resource_card1_desc: "Guides complets et documentation technique pour nos services et solutions.",
+        resource_view_btn: "Voir la Documentation",
+        resource_card2_title: "Blog & Idées",
+        resource_card2_desc: "Restez à jour avec les dernières tendances, conseils et idées de notre équipe d'experts.",
+        resource_read_btn: "Lire le Blog",
+        resource_card3_title: "Tutoriels Vidéo",
+        resource_card3_desc: "Regardez des tutoriels vidéo étape par étape et des webinaires sur divers sujets.",
+        resource_watch_btn: "Regarder des Vidéos",
+        resource_card4_title: "Téléchargements",
+        resource_card4_desc: "Accédez à des livres blancs, des études de cas et des ressources téléchargeables.",
+        resource_download_btn: "Obtenir des Téléchargements",
+        resource_card5_title: "FAQ",
+        resource_card5_desc: "Trouvez des réponses aux questions fréquemment posées sur nos services.",
+        resource_faq_btn: "Voir la FAQ",
+        resource_card6_title: "Outils pour Développeurs",
+        resource_card6_desc: "Accédez aux API, SDK et outils de développement pour intégrer nos solutions.",
+        resource_tools_btn: "Explorer les Outils",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbots vs Support Humain : Quel est le meilleur pour votre entreprise ?",
+        blog_cb_date: "15 déc. 2025",
+        blog_cb_author: "Équipe Technique",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Forces du Support Chatbot",
+        blog_cb_key_adv: "Avantages Clés",
+        blog_cb_h3_1: "Réponses Instantanées",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "Disponibilité 24/7",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Opérations Rentables",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Évolutivité en cas de forte demande",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Collecte de données et informations",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Forces du Support Humain",
+        blog_cb_h3_6: "1. Empathie et compréhension émotionnelle",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Résolution de problèmes personnalisée",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Mieux pour les problèmes complexes",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Établissement de relations",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Compréhension culturelle et nuance linguistique",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "CONCLUSION",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Retour au Blog"
     },
     de: {
         nav_home: "Startseite",
@@ -326,7 +502,73 @@ const translations = {
         footer_services: "Dienstleistungen",
         footer_contact: "Kontakt",
         footer_social_title: "Folgen Sie Uns",
-        footer_copyright: "© 2025 Navabharath Technologies. Alle Rechte vorbehalten."
+        footer_copyright: "© 2025 Navabharath Technologies. Alle Rechte vorbehalten.",
+
+        // Blog Page
+        blog_banner_title: "Unser Blog",
+        blog_banner_desc: "Einblicke, Updates und Expertenmeinungen aus der Welt der Technologie.",
+        blog_post1_title: "Chatbots vs. Menschlicher Support: Was ist Besser für Ihr Unternehmen?",
+        blog_post1_excerpt: "Erfahren Sie, wie Chatbots und menschlicher Support den Kundenservice verändern, und lernen Sie, welcher Ansatz für Ihr Unternehmen am besten funktioniert.",
+        blog_post2_title: "Wesentliche Best Practices für Cloud-Sicherheit",
+        blog_post2_excerpt: "Da Unternehmen in die Cloud wechseln, ist Sicherheit von größter Bedeutung. Lernen Sie die besten Strategien zum Schutz Ihrer digitalen Assets.",
+        blog_post3_title: "Top Webentwicklungstrends für 2026",
+        blog_post3_excerpt: "Bleiben Sie mit unserer Analyse der aufkommenden Trends, die das Internet im nächsten Jahr prägen werden, immer einen Schritt voraus.",
+        read_more: "Mehr Lesen",
+
+        // Resources Page
+        resources_intro_title: "Wissenszentrum",
+        resources_intro_desc: "Entdecken Sie von Experten kuratierte Ressourcen, Schritt-für-Schritt-Anleitungen und Brancheneinblicke.",
+        resource_card1_title: "Dokumentation",
+        resource_card1_desc: "Umfassende Leitfäden und technische Dokumentation für unsere Dienstleistungen und Lösungen.",
+        resource_view_btn: "Dokumentation Anzeigen",
+        resource_card2_title: "Blog & Einblicke",
+        resource_card2_desc: "Bleiben Sie auf dem Laufenden mit den neuesten Trends, Tipps und Einblicken unseres Expertenteams.",
+        resource_read_btn: "Blog Lesen",
+        resource_card3_title: "Video-Tutorials",
+        resource_card3_desc: "Sehen Sie sich Schritt-für-Schritt-Video-Tutorials und Webinare zu verschiedenen Themen an.",
+        resource_watch_btn: "Videos Ansehen",
+        resource_card4_title: "Downloads",
+        resource_card4_desc: "Greifen Sie auf Whitepapers, Fallstudien und herunterladbare Ressourcen zu.",
+        resource_download_btn: "Downloads Erhalten",
+        resource_card5_title: "FAQ",
+        resource_card5_desc: "Finden Sie Antworten auf häufig gestellte Fragen zu unseren Dienstleistungen.",
+        resource_faq_btn: "FAQ Anzeigen",
+        resource_card6_title: "Entwicklertools",
+        resource_card6_desc: "Zugriff auf APIs, SDKs und Entwicklertools zur Integration unserer Lösungen.",
+        resource_tools_btn: "Tools Erkunden",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbots vs. Menschlicher Support: Was ist das Beste für Ihr Unternehmen?",
+        blog_cb_date: "15. Dez. 2025",
+        blog_cb_author: "Technik-Team",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Stärken des Chatbot-Supports",
+        blog_cb_key_adv: "Hauptvorteile",
+        blog_cb_h3_1: "Sofortige Antworten",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "24/7 Verfügbarkeit",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Kostengünstiger Betrieb",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Skalierbarkeit bei hoher Nachfrage",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Datenerfassung & Einblicke",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Stärken des menschlichen Supports",
+        blog_cb_h3_6: "1. Empathie & Emotionales Verständnis",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Personalisierte Problemlösung",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Besser für komplizierte Probleme",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Beziehungsaufbau",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Kulturelles Verständnis & Sprachnuancen",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "FAZIT",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Zurück zum Blog"
     },
     it: {
         nav_home: "Home",
@@ -348,6 +590,39 @@ const translations = {
         about_feature1: "Soluzioni Innovative",
         about_feature2: "Approccio Centrato sul Cliente",
         about_feature3: "Team di Esperti",
+
+        // Blog Page
+        blog_banner_title: "Il Nostro Blog",
+        blog_banner_desc: "Approfondimenti, aggiornamenti e opinioni di esperti dal mondo della tecnologia.",
+        blog_post1_title: "Chatbot vs Supporto Umano: Qual è il Migliore per la Tua Azienda?",
+        blog_post1_excerpt: "Esplora come i chatbot e il supporto umano stanno ridisegnando il servizio clienti e scopri quale approccio funziona meglio per la tua azienda.",
+        blog_post2_title: "Best Practice Essenziali per la Sicurezza Cloud",
+        blog_post2_excerpt: "Mentre le aziende si spostano sul cloud, la sicurezza è fondamentale. Scopri le migliori strategie per proteggere i tuoi asset digitali e dati.",
+        blog_post3_title: "Principali Tendenze di Sviluppo Web per il 2026",
+        blog_post3_excerpt: "Resta al passo con la nostra analisi delle tendenze emergenti che plasmeranno internet il prossimo anno.",
+        read_more: "Leggi Di Più",
+
+        // Resources Page
+        resources_intro_title: "Knowledge Hub",
+        resources_intro_desc: "Scopri risorse curate da esperti, guide passo-passo e approfondimenti del settore.",
+        resource_card1_title: "Documentazione",
+        resource_card1_desc: "Guide complete e documentazione tecnica per i nostri servizi e soluzioni.",
+        resource_view_btn: "Visualizza Documentazione",
+        resource_card2_title: "Blog & Approfondimenti",
+        resource_card2_desc: "Resta aggiornato sulle ultime tendenze, suggerimenti e approfondimenti.",
+        resource_read_btn: "Leggi Blog",
+        resource_card3_title: "Video Tutorial",
+        resource_card3_desc: "Guarda video tutorial passo-passo e webinar su vari argomenti.",
+        resource_watch_btn: "Guarda Video",
+        resource_card4_title: "Download",
+        resource_card4_desc: "Accedi a whitepaper, case study e risorse scaricabili.",
+        resource_download_btn: "Ottieni Download",
+        resource_card5_title: "FAQ",
+        resource_card5_desc: "Trova risposte alle domande frequenti sui nostri servizi.",
+        resource_faq_btn: "Visualizza FAQ",
+        resource_card6_title: "Strumenti per Sviluppatori",
+        resource_card6_desc: "Accedi ad API, SDK e strumenti per sviluppatori per integrare le nostre soluzioni.",
+        resource_tools_btn: "Esplora Strumenti",
         services_title: "I Nostri Servizi",
         services_subtitle: "Soluzioni complete per le esigenze della tua azienda",
         service1_title: "Sviluppo Web",
@@ -371,7 +646,40 @@ const translations = {
         footer_services: "Servizi",
         footer_contact: "Contatti",
         footer_social_title: "Seguici",
-        footer_copyright: "© 2025 Navabharath Technologies. Tutti i diritti riservati."
+        footer_copyright: "© 2025 Navabharath Technologies. Tutti i diritti riservati.",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbot vs Supporto Umano: Qual è il Migliore per la Tua Azienda?",
+        blog_cb_date: "15 Dic 2025",
+        blog_cb_author: "Team Tecnico",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Punti di Forza del Supporto Chatbot",
+        blog_cb_key_adv: "Vantaggi Chiave",
+        blog_cb_h3_1: "Risposte Istantanee",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "Disponibilità 24/7",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Operazioni Convenienti",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Scalabilità durante la forte domanda",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Raccolta Dati e Approfondimenti",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Punti di Forza del Supporto Umano",
+        blog_cb_h3_6: "1. Empatia e Comprensione Emotiva",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Risoluzione Problemi Personalizzata",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Meglio per Problemi Complicati",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Costruzione di Relazioni",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Comprensione Culturale e Sfumature Linguistiche",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "CONCLUSIONE",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Torna al Blog"
     },
     pt: {
         nav_home: "Início",
@@ -416,7 +724,73 @@ const translations = {
         footer_services: "Serviços",
         footer_contact: "Contato",
         footer_social_title: "Siga-nos",
-        footer_copyright: "© 2025 Navabharath Technologies. Todos os direitos reservados."
+        footer_copyright: "© 2025 Navabharath Technologies. Todos os direitos reservados.",
+
+        // Blog Page
+        blog_banner_title: "Nosso Blog",
+        blog_banner_desc: "Insights, atualizações e opiniões de especialistas do mundo da tecnologia.",
+        blog_post1_title: "Chatbots vs Suporte Humano: O Que é Melhor Para Seu Negócio?",
+        blog_post1_excerpt: "Explore como chatbots e suporte humano estão reformulando o atendimento ao cliente e saiba qual abordagem funciona melhor para o seu negócio.",
+        blog_post2_title: "Melhores Práticas Essenciais de Segurança na Nuvem",
+        blog_post2_excerpt: "Conforme as empresas migram para a nuvem, a segurança é fundamental. Aprenda as principais estratégias para proteger seus ativos digitais e dados.",
+        blog_post3_title: "Principais Tendências de Desenvolvimento Web para 2026",
+        blog_post3_excerpt: "Fique à frente da curva com nossa análise das tendências emergentes que moldarão a internet no próximo ano.",
+        read_more: "Leia Mais",
+
+        // Resources Page
+        resources_intro_title: "Centro de Conhecimento",
+        resources_intro_desc: "Descubra recursos selecionados por especialistas, guias passo a passo e insights do setor.",
+        resource_card1_title: "Documentação",
+        resource_card1_desc: "Guias abrangentes e documentação técnica para nossos serviços e soluções.",
+        resource_view_btn: "Ver Documentação",
+        resource_card2_title: "Blog & Insights",
+        resource_card2_desc: "Mantenha-se atualizado com as últimas tendências, dicas e insights.",
+        resource_read_btn: "Ler Blog",
+        resource_card3_title: "Tutoriais em Vídeo",
+        resource_card3_desc: "Assista a tutoriais em vídeo passo a passo e webinars sobre vários tópicos.",
+        resource_watch_btn: "Assistir Vídeos",
+        resource_card4_title: "Downloads",
+        resource_card4_desc: "Acesse whitepapers, estudos de caso e recursos para download.",
+        resource_download_btn: "Obter Downloads",
+        resource_card5_title: "FAQ",
+        resource_card5_desc: "Encontre respostas para perguntas frequentes sobre nossos serviços.",
+        resource_faq_btn: "Ver FAQ",
+        resource_card6_title: "Ferramentas para Desenvolvedores",
+        resource_card6_desc: "Acesse APIs, SDKs e ferramentas de desenvolvedor para integrar nossas soluções.",
+        resource_tools_btn: "Explorar Ferramentas",
+
+        // Chatbot Blog
+        blog_cb_title: "Chatbots vs Suporte Humano: O Que é Melhor Para Seu Negócio?",
+        blog_cb_date: "15 Dez, 2025",
+        blog_cb_author: "Equipe Técnica",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. Pontos Fortes do Suporte Chatbot",
+        blog_cb_key_adv: "Principais Vantagens",
+        blog_cb_h3_1: "Respostas Instantâneas",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "Disponibilidade 24/7",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "Operações Econômicas",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "Escalabilidade durante alta demanda",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "Coleta de Dados e Insights",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. Pontos Fortes do Suporte Humano",
+        blog_cb_h3_6: "1. Empatia e Compreensão Emocional",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especialmente during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. Resolução de Problemas Personalizada",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. Melhor para Questões Complicadas",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. Construção de Relacionamento",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. Compreensão Cultural e Nuances de Idioma",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "CONCLUSÃO",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "Voltar para o Blog"
     },
     ar: {
         nav_home: "الرئيسية",
@@ -461,7 +835,73 @@ const translations = {
         footer_services: "الخدمات",
         footer_contact: "اتصل بنا",
         footer_social_title: "تابعنا",
-        footer_copyright: "© 2025 Navabharath Technologies. جميع الحقوق محفوظة."
+        footer_copyright: "© 2025 Navabharath Technologies. جميع الحقوق محفوظة.",
+
+        // Blog Page
+        blog_banner_title: "مدونتنا",
+        blog_banner_desc: "رؤى وتحديثات وآراء الخبراء من عالم التكنولوجيا.",
+        blog_post1_title: "روبوتات الدردشة مقابل الدعم البشري: ما هو الأفضل لعملك؟",
+        blog_post1_excerpt: "استكشف كيف تعيد روبوتات الدردشة والدعم البشري تشكيل خدمة العملاء، وتعرف على النهج الأفضل لعملك.",
+        blog_post2_title: "أفضل ممارسات أمان السحابة الأساسية",
+        blog_post2_excerpt: "بينما تنتقل الشركات إلى السحابة، فإن الأمان أمر بالغ الأهمية. تعرف على أهم الاستراتيجيات لحماية أصولك الرقمية وبياناتك.",
+        blog_post3_title: "أهم اتجاهات تطوير الويب لعام 2026",
+        blog_post3_excerpt: "ابق في الطليعة من خلال تحليلنا للاتجاهات الناشئة في تطوير الويب التي ستشكل الإنترنت في العام المقبل.",
+        read_more: "اقرأ المزيد",
+
+        // Resources Page
+        resources_intro_title: "مركز المعرفة",
+        resources_intro_desc: "اكتشف الموارد التي اختارها الخبراء، والأدلة خطوة بخطوة، ورؤى الصناعة.",
+        resource_card1_title: "الوثائق",
+        resource_card1_desc: "أدلة شاملة ووثائق فنية لخدماتنا وحلولنا.",
+        resource_view_btn: "عرض الوثائق",
+        resource_card2_title: "المدونة والرؤى",
+        resource_card2_desc: "ابق على اطلاع دائم بأحدث الاتجاهات والنصائح والرؤى من فريق الخبراء لدينا.",
+        resource_read_btn: "اقرأ المدونة",
+        resource_card3_title: "دروس الفيديو",
+        resource_card3_desc: "شاهد مقاطع فيديو تعليمية وندوات عبر الإنترنت خطوة بخطوة حول مواضيع مختلفة.",
+        resource_watch_btn: "شاهد مقاطع الفيديو",
+        resource_card4_title: "التنزيلات",
+        resource_card4_desc: "الوصول إلى الأوراق البيضاء ودراسات الحالة والموارد القابلة للتنزيل.",
+        resource_download_btn: "احصل على التنزيلات",
+        resource_card5_title: "الأسئلة الشائعة",
+        resource_card5_desc: "اعثر على إجابات للأسئلة الشائعة حول خدماتنا وحلولنا.",
+        resource_faq_btn: "عرض الأسئلة الشائعة",
+        resource_card6_title: "أدوات المطورين",
+        resource_card6_desc: "قم بالوصول إلى واجهات برمجة التطبيقات و SDK وأدوات المطورين لتكامل حلولنا.",
+        resource_tools_btn: "استكشاف الأدوات",
+
+        // Chatbot Blog
+        blog_cb_title: "روبوتات الدردشة مقابل الدعم البشري: ما هو الأفضل لعملك؟",
+        blog_cb_date: "15 ديسمبر 2025",
+        blog_cb_author: "الفريق التقني",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. نقاط قوة دعم روبوتات الدردشة",
+        blog_cb_key_adv: "المزايا الرئيسية",
+        blog_cb_h3_1: "ردود فورية",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "توفر 24/7",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "عمليات فعالة من حيث التكلفة",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "قابلية التوسع خلال الطلب المرتفع",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "جمع البيانات والرؤى",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. نقاط قوة الدعم البشري",
+        blog_cb_h3_6: "1. التعاطف والفهم العاطفي",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. حل المشكلات الشخصي",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. أفضل للمشكلات المعقدة",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. بناء العلاقات",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. الفهم الثقافي والفروق الدقيقة في اللغة",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "الخاتمة",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "العودة إلى المدونة"
     },
     kn: {
         nav_home: "ಮುಖಪುಟ",
@@ -529,6 +969,17 @@ const translations = {
         footer_contact: "ಸಂಪರ್ಕಿಸಿ",
         footer_social_title: "ನಮ್ಮನ್ನು ಹಿಂಬಾಲಿಸಿ",
         footer_copyright: "© 2025 ನವಭಾರತ್ ಟೆಕ್ನಾಲಜೀಸ್. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+
+        // Blog Page
+        blog_banner_title: "ನಮ್ಮ ಬ್ಲಾಗ್",
+        blog_banner_desc: "ತಂತ್ರಜ್ಞಾನ ಪ್ರಪಂಚದ ಒಳನೋಟಗಳು, ನವೀಕರಣಗಳು ಮತ್ತು ತಜ್ಞರ ಅಭಿಪ್ರಾಯಗಳು.",
+        blog_post1_title: "ಚಾಟ್‌ಬಾಟ್‌ಗಳು ವರ್ಸಸ್ ಮಾನವ ಬೆಂಬಲ: ನಿಮ್ಮ ವ್ಯಾಪಾರಕ್ಕೆ ಯಾವುದು ಉತ್ತಮ?",
+        blog_post1_excerpt: "ಚಾಟ್‌ಬಾಟ್‌ಗಳು ಮತ್ತು ಮಾನವ ಬೆಂಬಲವು ಗ್ರಾಹಕ ಸೇವೆಯನ್ನು ಹೇಗೆ ಮರುರೂಪಿಸುತ್ತಿದೆ ಎಂಬುದನ್ನು ಅನ್ವೇಷಿಸಿ - ಮತ್ತು ನಿಮ್ಮ ವ್ಯಾಪಾರಕ್ಕೆ ಯಾವ ವಿಧಾನವು ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ತಿಳಿಯಿರಿ.",
+        blog_post2_title: "ಅಗತ್ಯ ಕ್ಲೌಡ್ ಭದ್ರತಾ ಅತ್ಯುತ್ತಮ ಅಭ್ಯಾಸಗಳು",
+        blog_post2_excerpt: "ವ್ಯಾಪಾರಗಳು ಕ್ಲೌಡ್‌ಗೆ ಚಲಿಸುತ್ತಿದ್ದಂತೆ, ಭದ್ರತೆ ಅತ್ಯಂತ ಮುಖ್ಯವಾಗಿದೆ. ನಿಮ್ಮ ಡಿಜಿಟಲ್ ಸ್ವತ್ತುಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ರಕ್ಷಿಸಲು ಉನ್ನತ ತಂತ್ರಗಳನ್ನು ತಿಳಿಯಿರಿ.",
+        blog_post3_title: "2026 ರ ಪ್ರಮುಖ ವೆಬ್ ಅಭಿವೃದ್ಧಿ ಟ್ರೆಂಡ್‌ಗಳು",
+        blog_post3_excerpt: "ಮುಂದಿನ ವರ್ಷ ಇಂಟರ್ನೆಟ್ ಅನ್ನು ರೂಪಿಸುವ ಉದಯೋನ್ಮುಖ ವೆಬ್ ಅಭಿವೃದ್ಧಿ ಟ್ರೆಂಡ್‌ಗಳ ನಮ್ಮ ವಿಶ್ಲೇಷಣೆಯೊಂದಿಗೆ ಯಾವಾಗಲೂ ಮುಂದಿರಿ.",
+        read_more: "ಇನ್ನಷ್ಟು ಓದಿ",
         footer_links_title: "ಕಂಪನಿ",
         footer_support: "ಬೆಂಬಲ",
         footer_terms: "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು",
@@ -646,6 +1097,39 @@ const translations = {
         explore_trust_3_desc: "ಸೃಜನಶೀಲತೆ, ಪರಿಣತಿ ಮತ್ತು ಉದ್ಯಮದ ಜ್ಞಾನವನ್ನು ಸಂಯೋಜಿಸುವ ತಂಡ.",
         explore_trust_4_title: "4. ಗುಣಮಟ್ಟ ಮತ್ತು ಪಾರದರ್ಶಕತೆ",
         explore_trust_4_desc: "ಪ್ರತಿ ಹಂತದಲ್ಲೂ ಸ್ಪಷ್ಟ ಸಂವಹನ, ವಿಶ್ವಾಸಾರ್ಹ ಪ್ರಕ್ರಿಯೆಗಳು ಮತ್ತು ಸಕಾಲಿಕ ವಿತರಣೆ.",
+
+        // Chatbot Blog
+        blog_cb_title: "ಚಾಟ್‌ಬಾಟ್‌ಗಳು ವರ್ಸಸ್ ಮಾನವ ಬೆಂಬಲ: ನಿಮ್ಮ ವ್ಯಾಪಾರಕ್ಕೆ ಯಾವುದು ಉತ್ತಮ?",
+        blog_cb_date: "ಡಿಸೆಂಬರ್ 15, 2025",
+        blog_cb_author: "ತಾಂತ್ರಿಕ ತಂಡ",
+        blog_cb_p1: "Customer expectations are rising faster than ever, pushing businesses to rethink how they deliver support. Both chatbots & human agents play powerful roles in shaping overall customer experiences. While automation can handle quick responses, real conversations still rely on emotional intelligence. Choosing the right balance impacts customer satisfaction, response time & operational cost. This article helps you understand where each option shines so you can decide what fits your business best.",
+        blog_cb_h2_1: "1. ಚಾಟ್‌ಬಾಟ್ ಬೆಂಬಲದ ಸಾಮರ್ಥ್ಯಗಳು",
+        blog_cb_key_adv: "ಪ್ರಮುಖ ಅನುಕೂಲಗಳು",
+        blog_cb_h3_1: "ತಕ್ಷಣದ ಪ್ರತಿಕ್ರಿಯೆಗಳು",
+        blog_cb_p2: "Chatbots reply within seconds, helping businesses reduce wait times & handle peak hours efficiently.",
+        blog_cb_h3_2: "24/7 ಲಭ್ಯತೆ",
+        blog_cb_p3: "Bots remain active day & night, ensuring customers get basic information, troubleshooting steps & updates anytime.",
+        blog_cb_h3_3: "ವೆಚ್ಚ-ಪರಿಣಾಮಕಾರಿ ಕಾರ್ಯಾಚರಣೆಗಳು",
+        blog_cb_p4: "Companies save on hiring & training costs since chatbots can manage repeated queries with consistent accuracy.",
+        blog_cb_h3_4: "ಹೆಚ್ಚಿನ ಬೇಡಿಕೆಯ ಸಮಯದಲ್ಲಿ ಸ್ಕೇಲೆಬಿಲಿಟಿ",
+        blog_cb_p5: "A single bot can talk to thousands of customers at once, making it ideal for fast-growing businesses.",
+        blog_cb_h3_5: "ಡೇಟಾ ಸಂಗ್ರಹಣೆ ಮತ್ತು ಒಳನೋಟಗಳು",
+        blog_cb_p6: "Bots automatically gather customer patterns, helping brands boost personalization & service quality.",
+        blog_cb_quote: "\"Imagine a world where your customers never have to wait. It's 2 AM, and a frustrated user needs a quick answer—your chatbot is there instantly, a tireless digital guardian awake while the city sleeps. But when the problem gets tough, that’s when the human touch steps in. Like a skilled diplomat, your human agent takes over, bringing empathy and deep understanding to complex issues that code simply cannot solve. This powerful duo—the speed of automation and the warmth of humanity—creates a support experience that doesn't just solve problems, but builds lasting trust.\"",
+        blog_cb_h2_2: "2. ಮಾನವ ಬೆಂಬಲದ ಸಾಮರ್ಥ್ಯಗಳು",
+        blog_cb_h3_6: "1. ಸಹಾನುಭೂತಿ ಮತ್ತು ಭಾವನಾತ್ಮಕ ತಿಳುವಳಿಕೆ",
+        blog_cb_p7: "Human agents offer something chatbots cannot—real emotional connection. They can sense frustration, happiness or confusion through tone & conversation flow. This helps customers feel understood, especially during stressful or sensitive issues. Empathy builds trust, reduces conflict & makes the customer feel valued as a person, not just another ticket.",
+        blog_cb_h3_7: "2. ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಸಮಸ್ಯೆ ಪರಿಹಾರ",
+        blog_cb_p8: "Humans are naturally creative thinkers. They can analyze a customer’s issue from multiple angles, ask clarifying questions & suggest flexible solutions tailored to individual needs. This is helpful when problems do not follow a standard script. Personalized responses reassure customers that their situation is unique & is being handled by someone who genuinely cares.",
+        blog_cb_h3_8: "3. ಸಂಕೀರ್ಣ ಸಮಸ್ಯೆಗಳಿಗೆ ಉತ್ತಮ",
+        blog_cb_p9: "Some problems require deeper investigation, multiple verification steps or critical judgment. Human agents excel in these situations because they understand context, exceptions & policies better than automated systems. They can coordinate with other departments, interpret unclear information & offer accurate guidance that bots often miss.",
+        blog_cb_h3_9: "4. ಸಂಬಂಧ ನಿರ್ಮಾಣ",
+        blog_cb_p10: "Strong customer relationships are built through real conversations. A friendly agent can turn a negative experience into a positive one by listening actively & showing patience. Over time, this human touch boosts brand loyalty & increases the chances of repeat business. Customers are more likely to trust companies that treat them like humans rather than transactions.",
+        blog_cb_h3_10: "5. ಸಾಂಸ್ಕೃತಿಕ ತಿಳುವಳಿಕೆ ಮತ್ತು ಭಾಷಾ ಸೂಕ್ಷ್ಮತೆ",
+        blog_cb_p11: "Human agents naturally understand tone, slang, regional expressions & cultural sensitivities. This ensures smoother communication & avoids misunderstandings that bots often face. Whether it’s adjusting language formality or understanding local behavior patterns, humans can adapt instantly—making the experience more natural & respectful.",
+        blog_cb_conclusion_title: "ತೀರ್ಮಾನ",
+        blog_cb_conclusion_p: "Both chatbots & human support offer unique strengths, making them valuable in different situations. Chatbots are perfect for quick replies, repeated questions & cost-efficient operations. Human agents shine when conversations require emotional care, critical thinking or deep problem-solving. Instead of choosing one over the other, most businesses succeed by blending automation with human expertise. This balanced approach creates faster, smarter & more human-centered support experiences for every customer.",
+        blog_back_btn: "ಬ್ಲಾಗ್‌ಗೆ ಹಿಂತಿರುಗಿ",
     }
 };
 
@@ -839,58 +1323,80 @@ document.addEventListener('DOMContentLoaded', () => {
     const voiceSearchBtn = document.getElementById('voiceSearchBtn');
 
     // Search function with page navigation
+    // Search function with page navigation
     function performSearch(query) {
         const searchTerm = query.toLowerCase().trim();
-
-        // Always keep all service cards visible
-        const serviceCards = document.querySelectorAll('.service-card');
-        serviceCards.forEach(card => {
-            card.style.display = 'block';
-        });
 
         // If no search term, do nothing
         if (!searchTerm) {
             return;
         }
 
-        // Define known pages and their corresponding section IDs
+        // Define known pages and their corresponding paths/sections
         const pageMapping = {
-            'home': '#home',
-            'about': '#about',
-            'about us': '#about',
-            'services': '#services',
-            'service': '#services',
-            'contact': '#contact',
-            'contact us': '#contact'
+            'home': 'index.html#home',
+            'about': 'index.html#about',
+            'about us': 'index.html#about',
+            'services': 'index.html#services',
+            'service': 'index.html#services',
+            'contact': 'index.html#contact',
+            'contact us': 'index.html#contact',
+            'resources': 'resources.html',
+            'resource': 'resources.html',
+            'knowledge': 'resources.html',
+            'blog': 'blog.html',
+            'blogs': 'blog.html',
+            'news': 'blog.html',
+            'explore': 'explore.html',
+            'privacy': 'privacy.html',
+            'terms': 'terms.html',
+            'policy': 'privacy.html'
         };
 
         // Check if search term matches any known page
-        let matchFound = false;
-        for (const [pageName, sectionId] of Object.entries(pageMapping)) {
-            if (searchTerm === pageName || searchTerm.includes(pageName)) {
-                // Navigate to the matching page section
-                const targetSection = document.querySelector(sectionId);
-                if (targetSection) {
-                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    matchFound = true;
+        let targetPath = null;
 
-                    // Update URL hash without triggering page reload
-                    if (window.history.pushState) {
-                        window.history.pushState(null, null, sectionId);
-                    } else {
-                        window.location.hash = sectionId;
-                    }
+        // Exact match check first
+        if (pageMapping[searchTerm]) {
+            targetPath = pageMapping[searchTerm];
+        } else {
+            // Partial match check
+            for (const [key, path] of Object.entries(pageMapping)) {
+                if (searchTerm.includes(key)) {
+                    targetPath = path;
                     break;
                 }
             }
         }
 
-        // If no match found, show message
-        if (!matchFound) {
-            alert('No matching page found. Please try searching for: Home, About, Services, or Contact.');
+        if (targetPath) {
+            const currentPath = window.location.pathname;
+            const isHomePage = currentPath.endsWith('index.html') || currentPath.endsWith('/') || currentPath === '/';
+
+            // Check if target is an internal section on the current page
+            if (targetPath.startsWith('index.html#') && isHomePage) {
+                const sectionId = targetPath.split('#')[1];
+                const targetSection = document.getElementById(sectionId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Update URL hash
+                    if (window.history.pushState) {
+                        window.history.pushState(null, null, '#' + sectionId);
+                    } else {
+                        window.location.hash = '#' + sectionId;
+                    }
+                }
+            } else {
+                // Navigate to the target page
+                window.location.href = targetPath;
+            }
+        } else {
+            // If no match found, show available options
+            alert('Page not found. Try searching for: Home, About, Services, Resources, Blog, or Contact.');
         }
 
         // Clear search input after search
+        const searchInput = document.getElementById('searchInput');
         if (searchInput) {
             searchInput.value = '';
         }
