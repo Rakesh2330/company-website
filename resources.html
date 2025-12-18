@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DJHRSEB8S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0DJHRSEB8S');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -37,6 +46,7 @@
         .page-content p {
             margin-bottom: 20px;
             color: var(--text-color);
+            text-align: justify;
         }
 
         .resources-grid {
@@ -122,6 +132,7 @@
             color: var(--text-color);
             line-height: 1.6;
             margin-bottom: 20px;
+            text-align: justify;
         }
 
         .resource-card .resource-icon {
@@ -144,6 +155,12 @@
 
         .resource-link i {
             margin-left: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .explore-banner {
+                height: 250px !important;
+            }
         }
     </style>
 </head>
@@ -216,9 +233,11 @@
     <main class="container page-content">
         <section class="explore-section">
             <h2 data-translate="resources_intro_title">Knowledge Hub</h2>
-            <p data-translate="resources_intro_desc">Explore our collection of resources, guides, and insights to help
-                you stay ahead in the digital world. From technical documentation to industry best practices, we've
-                curated valuable content to support your business journey.</p>
+            <p data-translate="resources_intro_desc">Discover expert curated resources, step-by-step guides, & industry
+                insights designed to support your digital growth. Our Knowledge Hub covers technology trends, business
+                solutions, best practices, & practical strategies to help organizations improve performance, enhance
+                customer experience, & make informed decisions. Learn from reliable content built to empower modern
+                businesses.</p>
         </section>
 
         <div class="resources-grid">

@@ -83,7 +83,7 @@ const translations = {
 
         // Resources Page
         resources_intro_title: "Knowledge Hub",
-        resources_intro_desc: "Explore our collection of resources, guides, and insights to help you stay ahead in the digital world. From technical documentation to industry best practices, we've curated valuable content to support your business journey.",
+        resources_intro_desc: "Discover expert curated resources, step-by-step guides, & industry insights designed to support your digital growth. Our Knowledge Hub covers technology trends, business solutions, best practices, & practical strategies to help organizations improve performance, enhance customer experience, & make informed decisions. Learn from reliable content built to empower modern businesses.",
         resource_card1_title: "Documentation",
         resource_card1_desc: "Comprehensive guides and technical documentation for our services and solutions. Learn how to integrate and maximize the value of our technology.",
         resource_view_btn: "View Documentation",
@@ -1310,6 +1310,30 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('mouseleave', () => {
             card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
         });
+    });
+
+    // Smart Sticky Header Logic
+    let lastScrollY = window.pageYOffset;
+    const header = document.querySelector('header');
+
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.pageYOffset;
+
+        // Always show if at top
+        if (currentScrollY <= 0) {
+            header.classList.remove('header-hidden');
+            lastScrollY = currentScrollY;
+            return;
+        }
+
+        // Hide on scroll down, Show on scroll up
+        if (currentScrollY > lastScrollY && !header.classList.contains('header-hidden')) {
+            header.classList.add('header-hidden');
+        } else if (currentScrollY < lastScrollY && header.classList.contains('header-hidden')) {
+            header.classList.remove('header-hidden');
+        }
+
+        lastScrollY = currentScrollY;
     });
 });
 
