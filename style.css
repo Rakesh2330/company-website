@@ -953,7 +953,7 @@ nav a {
 }
 
 .detail-item i {
-    color: #ec4899;
+    color: #AD650F;
     width: 20px;
 }
 
@@ -1091,6 +1091,7 @@ footer {
 .social-icons {
     display: flex;
     gap: 10px;
+    margin-left: -30px;
 }
 
 .social-icons a {
